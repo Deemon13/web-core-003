@@ -1,6 +1,44 @@
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url("TTLakes-Regular.eot");
+  src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+    url("../fonts/TTLakes/TTLakes-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/TTLakes/TTLakes-Regular.woff") format("woff"),
+    url("../fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url("TTLakes-Medium.eot");
+  src: local("TT Lakes Medium"), local("TTLakes-Medium"),
+    url("../fonts/TTLakes/TTLakes-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/TTLakes/TTLakes-Medium.woff") format("woff"),
+    url("../fonts/TTLakes/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Bold";
+  src: url("TTLakes-Bold.eot");
+  src: local("TT Lakes Bold"), local("TTLakes-Bold"),
+    url("../fonts/TTLakes/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TTLakes/TTLakes-Bold.woff") format("woff"),
+    url("../fonts/TTLakes/TTLakes-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
+
+  font-family: "TT Lakes Regular", sans-serif;
 }
+
 *,
 *:before,
 *:after {
@@ -48,6 +86,7 @@ body {
   content: "";
   width: 2px;
   height: 32px;
+
   background-color: #eaeaea;
 }
 
@@ -77,22 +116,23 @@ body {
   width: 320px;
   margin: 0 auto;
   padding: 24px 0 35px;
-  background-color: #f8f8f8;
   overflow: hidden;
+
+  background-color: #f8f8f8;
 }
 
 .title {
-  font-family: sans-serif;
+  font-family: "TT Lakes Bold", sans-serif;
   font-size: 28px;
   line-height: 1.43; /* 40px */
   letter-spacing: -0.6px;
+
   color: #1b1c21;
 }
 
 .services__title {
   margin-top: 0;
   margin-bottom: 24px;
-  font-weight: 700;
   display: flex;
 }
 
@@ -103,6 +143,7 @@ body {
   margin-right: 12px;
   border-top-right-radius: 28px;
   border-bottom-right-radius: 28px;
+
   background-color: #41f6d7;
 }
 
@@ -113,8 +154,8 @@ body {
 
 .services__item {
   padding: 8px 16px;
-
   border-radius: 6px;
+
   color: #7e7e82;
 }
 
@@ -131,12 +172,12 @@ body {
 }
 
 .services__link {
-  font-family: sans-serif;
+  font-family: "TT Lakes Medium", sans-serif;
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.5; /* 24px */
   letter-spacing: -0.2px;
   white-space: nowrap;
+
   color: inherit;
 }
 
@@ -144,11 +185,10 @@ body {
   margin-top: 0;
   margin-bottom: 16px;
 
-  font-family: sans-serif;
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.29; /* 18px */
   letter-spacing: 0.2px;
+
   color: #1b1c21;
 }
 
@@ -160,14 +200,15 @@ body {
 
 .more__icon {
   margin-right: 8px;
+
   fill: #41f6d7;
 }
 
 .more__text {
   vertical-align: middle;
-  font-family: sans-serif;
+
+  font-family: "TT Lakes Medium", sans-serif;
   font-size: 16px;
-  font-weight: 500;
   line-height: 24px;
   letter-spacing: -0.2px;
 
