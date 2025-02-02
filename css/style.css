@@ -116,7 +116,6 @@ body {
   width: 320px;
   margin: 0 auto;
   padding: 24px 0 35px;
-  overflow: hidden;
 
   background-color: #f8f8f8;
 }
@@ -150,6 +149,7 @@ body {
 .services__list {
   display: flex;
   margin-bottom: 24px;
+  overflow-x: scroll;
 }
 
 .services__item {
@@ -161,10 +161,6 @@ body {
 
 .services__item:not(:last-child) {
   margin-right: 20px;
-}
-
-.services__item--desktop {
-  display: none;
 }
 
 .services__item--active {
