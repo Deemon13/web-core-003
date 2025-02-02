@@ -45,6 +45,29 @@
                 class="service-button service-button--repair"
                 type="button"
               >
+                <svg class="service-button__icon" width="40" height="40">
+                  <use href="./images/icons/sprite.svg#repair"></use>
+                </svg>
+              </button>
+              <button
+                class="service-button service-button--status"
+                type="button"
+              >
+                <svg class="service-button__icon" width="40" height="40">
+                  <use href="./images/icons/sprite.svg#checkstatus"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="header--desktop">
+            <h1 class="title services__title">Услуги и сервисы</h1>
+            <div class="service-buttons__wrapper--desktop">
+              <button
+                class="service-button service-button--repair"
+                type="button"
+              >
                 <span class="service-button__text">Оставить заявку</span>
                 <svg class="service-button__icon" width="40" height="40">
                   <use href="./images/icons/sprite.svg#repair"></use>
@@ -61,9 +84,7 @@
               </button>
             </div>
           </div>
-        </div>
-        <div class="header__bottom">
-          <h1 class="title services__title">Услуги и сервисы</h1>
+
           <ul class="list services__list">
             <li class="services__item services__item--active">
               <a class="link services__link" href="#">Ремонтируемые бренды</a>
@@ -96,48 +117,28 @@
     </header>
     <main>
       <section class="services">
-        <!-- <h1 class="title services__title">Услуги и сервисы</h1>
-        <ul class="list services__list">
-          <li class="services__item services__item--active">
-            <a class="link services__link" href="#">Ремонтируемые бренды</a>
-          </li>
-          <li class="services__item">
-            <a class="link services__link" href="#">Ремонтируемые устройства</a>
-          </li>
-          <li class="services__item">
-            <a class="link services__link" href="#">Дополнительные услуги</a>
-          </li>
-          <li class="services__item">
-            <a class="link services__link" href="#">Цены на услуги</a>
-          </li>
-          <li class="services__item">
-            <a class="link services__link" href="#">Адреса сервисных центров</a>
-          </li>
-          <li class="services__item">
-            <a class="link services__link" href="#">Специальные цены</a>
-          </li>
-          <li class="services__item">
-            <a class="link services__link" href="#">Отзывы</a>
-          </li>
-        </ul> -->
         <div class="services__wrapper">
-          <p class="services__description">
-            <span class="services__text services__text--mobile">
+          <div class="services__description">
+            <p class="services__text services__text--mobile">
               Мы являемся авторизованным сервисным центром по ремонту техники
               Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
               официальной гарантией производителя.
-            </span>
-            <span class="services__text services__text--tablet">
+            </p>
+            <p class="services__text services__text--tablet">
               Мы успешно работаем с 1992 года и заслужили репутацию надежного
-              партнера
-            </span>
+              партнера<span class="services__text services__text--desktop"
+                >, что подтверждает большое количество постоянных клиентов. Мы
+                гордимся тем, что к нам обращаются по рекомендациям и, в свою
+                очередь, советуют нас родным и близким.</span
+              >
+            </p>
             <a class="link more" href="#">
               <svg class="more__icon" width="24" height="24">
                 <use href="./images/icons/sprite.svg#expand-small"></use>
               </svg>
               <span class="more__text">Читать далее</span>
             </a>
-          </p>
+          </div>
           <img
             class="services__img"
             src="./images/services_mobile.jpg"
