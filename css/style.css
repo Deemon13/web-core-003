@@ -104,6 +104,8 @@ body {
 
 .service-button:hover {
   cursor: pointer;
+
+  transform: scale(1.1);
 }
 
 .burger {
@@ -127,6 +129,11 @@ body {
 
 .logo {
   fill: #80949f;
+}
+
+.logo:hover {
+  fill: #ff3e79;
+  transition: fill 250ms ease-in-out;
 }
 
 .menu__logo {
@@ -229,6 +236,12 @@ body {
   color: inherit;
 }
 
+.services__link:hover {
+  color: #ff3e79;
+
+  transition: color 250ms ease-in-out;
+}
+
 .services__description {
   margin-bottom: 16px;
   padding: 0 16px;
@@ -276,6 +289,12 @@ body {
   letter-spacing: -0.2px;
 
   color: #1b1c21;
+}
+
+.more:hover .more__text {
+  color: #ff3e79;
+
+  transition: color 250ms ease-in-out;
 }
 
 .services__img {
