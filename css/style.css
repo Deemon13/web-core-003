@@ -171,6 +171,7 @@ body {
   margin-top: 88px;
   padding: 152px 0 35px;
   border-top: 1px solid #d9fff5;
+  border-bottom: 1px solid #d9fff5;
 
   background-color: #f8f8f8;
 }
@@ -420,17 +421,15 @@ body {
     margin: 0;
   }
 
-  main {
-    background-color: #f8f8f8;
-  }
-
   .services {
     min-width: 1120px;
     margin-top: 0;
     padding-top: 184px;
-    border: none;
+    border-top: none;
     background-color: transparent;
     padding-bottom: 50px;
+
+    background-color: #f8f8f8;
   }
 
   .services__list {

@@ -139,14 +139,27 @@
               <span class="more__text">Читать далее</span>
             </a>
           </div>
-          <img
-            class="services__img"
-            src="./images/services_mobile.jpg"
-            alt="Фото вывески"
-          />
+          <picture>
+            <source
+              srcset="./images/banner_mobile.jpg"
+              media="(max-width: 767px)"
+            />
+            <source
+              srcset="./images/banner_tablet.jpg"
+              media="(min-width: 768px) and (max-width: 1119px)"
+            />
+            <source
+              srcset="./images/banner_desktop.jpg"
+              media="(min-width: 1120px)"
+            />
+            <img
+              class="services__img"
+              src="./images/banner_mobile.jpg"
+              alt="Фото баннера"
+            />
+          </picture>
         </div>
       </section>
     </main>
-    <footer></footer>
   </body>
 </html>
